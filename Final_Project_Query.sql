@@ -48,7 +48,7 @@ WHERE tbl_library_branch.BranchId=1 AND  tbl_Book_loans.DueDate = '2017-06-16'
 
 --5.--
 
-SELECT tbl_library_branch.BranchId, tbl_library_branch.BranchName, tbl_book_loans.BranchId, tbl_book_loans.CardNo
+SELECT tbl_library_branch.BranchId, tbl_library_branch.BranchName, tbl_book_loans.BranchId, COUNT(tbl_book_loans.CardNo) AS BookDue
 FROM tbl_library_branch
 INNER JOIN tbl_book_loans ON tbl_book_loans.BranchId = tbl_library_branch.BranchId
 WHERE BranchName='west' 
