@@ -44,11 +44,14 @@ CREATE PROCEDURE AllBorrowers
 AS
 
 
-SELECT tbl_borrower.CardNo, tbl_borrower.Name, tbl_book_loans.CardNo,tbl_book_loans.DueDate
+
+SELECT tbl_borrower.CardNo, tbl_borrower.Name, tbl_book_loans.DueDate, tbl_book_loans.CardNo
 FROM tbl_book_loans
 INNER JOIN tbl_borrower ON tbl_book_loans.CardNo = tbl_borrower.CardNo
-WHERE tbl_Book_loans.DueDate > '2017-06-16'
-Order by tbl_borrower.Name
+WHERE tbl_Book_loans.DueDate < '2017-06-16'
+
+
+
 
 GO
 
@@ -98,6 +101,15 @@ SELECT tbl_book_loans.CardNo, tbl_borrower.CardNo,tbl_borrower.Name, tbl_borrowe
 FROM tbl_book_loans
 INNER JOIN tbl_borrower ON tbl_book_loans.CardNo = tbl_borrower.CardNo
 Order by tbl_borrower.CardNo 
+
+
+
+SELECT tbl_borrower.Name, tbl_borrower.PrimaryAddress, COUNT(tbl_book_loans.CardNo) AS BooksOut 
+FROM tbl_book_loans
+INNER JOIN tbl_borrower ON tbl_book_loans.CardNo = tbl_borrower.CardNo
+GROUP BY tbl_borrower.Name, tbl_borrower.PrimaryAddress
+ORDER BY BooksOut Desc
+
 
 GO
 
