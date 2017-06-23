@@ -1,0 +1,35 @@
+body {
+    background-image:url(./images/pizza3.jpg);
+    color: black;
+    font-weight: bold
+        height: 900px;
+}
+
+h1 {
+    background: white;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 10px;
+    padding: 5px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#menuBG {
+    height: 1000px;
+    width: 370px;
+    background: white;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 10px; 
+    padding: 10px;
+    margin: auto
+    
+}
+
+#btnOrder{
+    margin-left: 140px;
+    margin-right: 100px;
+    
+}
