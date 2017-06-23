@@ -1,30 +1,25 @@
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+    <head>
 		<title>¡Pizzas By Seth!</title>
 		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
 		<meta content="width=device-width,initial-scale=1.0" name="viewport">
-		<style>#menuBG{width:400px;height:470px;margin:10px auto;}#frmMenu{width:400px;height:200px;}
-		#totalPrice{width:200px;height:190px;margin:0 auto;float:right;}.left{width:200px;height:200px;float:left;}
-		.right{width:200px;height:200px;float:right;}#showText{width:200px;height:190px;margin:0px auto;float:left;}
-		#cart{top:0;margin:0px auto;width:400px;height:200px;}#btnOrder{margin:10px 0px 0px 100px;width:100px;height:40px}
-		</style>
         <link rel="stylesheet" href="../JS_final_project/js_demo_css.css">    
-	</head>
+    </head>
 	<body>
         <h1 align="center">Pizzas! By Seth! </h1>
 		<div id="menuBG">
 			<form id="frmMenu">
 				<div class="menu left">
 					<h3>Size:</h3>
-					<input class="size" type="radio" name="Size" value="Personal Pizza"> Personal Pizza<br>
-					<input class="size" type="radio" name="Size" value="Medium Pizza"> Medium Pizza<br>
-					<input class="size" type="radio" name="Size" value="Large Pizza" checked> Large Pizza<br>
-					<input class="size" type="radio" name="Size" value="Extra Large Pizza"> Extra Large Pizza<br>
+					<input class="size" type="radio" name="Size" value="Personal Pizza"> Personal Pizza  -  $6<br>
+					<input class="size" type="radio" name="Size" value="Medium Pizza"> Medium Pizza  -  $10<br>
+					<input class="size" type="radio" name="Size" value="Large Pizza" checked> Large Pizza  -  $14<br>
+					<input class="size" type="radio" name="Size" value="Extra Large Pizza"> Extra Large Pizza  -  $16<br>
 				</div>
 				<div class="menu right">
-					<h3>Meats:</h3>
+					<h3>Meats:<small><small>(+$1 after the first one)</small></small></h3>
 					<input class="meats" type="checkbox" name="Meat" value="Pepperoni"> Pepperoni<br>
 					<input class="meats" type="checkbox" name="Meat" value="Sausage"> Sausage <br>
 					<input class="meats" type="checkbox" name="Meat" value="Canadian Bacon"> Canadian Bacon<br> 
@@ -47,7 +42,7 @@
 					<h3>Crust:</h3>
 					<input class="crust" type="radio" name="crust" value="Plain Crust"> Plain Crust<br>
 					<input class="crust" type="radio" name="crust" value="Garlic Butter Crust"> Garlic Butter Crust <br>
-					<input class="crust" type="radio" name="crust" value="Cheese Stuffed Crust"> Cheese Stuffed Crust<br> 
+					<input class="crust" type="radio" name="crust" value="Cheese Stuffed Crust"> Cheese Stuffed Crust + $3<br> 
 					<input class="crust" type="radio" name="crust" value="Spicy Crust"> Spicy Crust<br>
 					<input class="crust" type="radio" name="crust" value="House Special Crust"> House Special Crust<br>
 				</div>
@@ -64,7 +59,7 @@
                 
                 
                 <div class="menu right">
-					<h3>Veggies:</h3>
+					<h3>Veggies:<small><small>(+$1 after the first one)</small></small></h3> 
 					<input class="veggies" type="checkbox" name="veggies" value="Tomatoes"> Tomatoes<br>
 					<input class="veggies" type="checkbox" name="veggies" value="Onions"> Onions<br>
 					<input class="veggies" type="checkbox" name="veggies" value="Olives"> Olives<br> 
