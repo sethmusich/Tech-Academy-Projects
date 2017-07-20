@@ -25,11 +25,11 @@
             <asp:TextBox ID="secondValueBox" runat="server"></asp:TextBox>
         </p>
         <div class="auto-style1">
-        <asp:Button ID="addButton" runat="server" Text="+" />
+        <asp:Button ID="addButton" runat="server" OnClick="addButton_Click" Text="+" />
 &nbsp;
-&nbsp;<asp:Button ID="subtractButton" runat="server" Text="-" />
-&nbsp;&nbsp; <asp:Button ID="multiplyButton" runat="server" Text="*" />
-&nbsp;&nbsp; <asp:Button ID="divideButton" runat="server" Text="/" />
+&nbsp;<asp:Button ID="subtractButton" runat="server" OnClick="subtractButton_Click" Text="-" />
+&nbsp;&nbsp; <asp:Button ID="multiplyButton" runat="server" OnClick="multiplyButton_Click" Text="*" />
+&nbsp;&nbsp; <asp:Button ID="divideButton" runat="server" OnClick="divideButton_Click" Text="/" />
         </div>
         <p class="auto-style1">
             <asp:Label ID="resultLabel" runat="server" BackColor="#0099FF" Font-Bold="True" Font-Size="Larger"></asp:Label>
