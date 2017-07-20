@@ -16,6 +16,7 @@ namespace ChallengeSimpleCalculator
 
         protected void addButton_Click(object sender, EventArgs e)
         {
+            
             int firstNumb = int.Parse(firstValueBox.Text);
             int secondNumb = int.Parse(secondValueBox.Text);
             int result = firstNumb + secondNumb;
@@ -24,6 +25,7 @@ namespace ChallengeSimpleCalculator
 
         protected void subtractButton_Click(object sender, EventArgs e)
         {
+            
             int firstNumb = int.Parse(firstValueBox.Text);
             int secondNumb = int.Parse(secondValueBox.Text);
             int result = firstNumb - secondNumb;
