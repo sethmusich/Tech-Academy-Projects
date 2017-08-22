@@ -1,0 +1,5 @@
+C:\Users\sethm\OneDrive\Documents\Visual Studio 2017\Projects\PapaBobs\PapaBobs.DTO\bin\Debug\PapaBobs.DTO.dll
+C:\Users\sethm\OneDrive\Documents\Visual Studio 2017\Projects\PapaBobs\PapaBobs.DTO\bin\Debug\PapaBobs.DTO.pdb
+C:\Users\sethm\OneDrive\Documents\Visual Studio 2017\Projects\PapaBobs\PapaBobs.DTO\obj\Debug\PapaBobs.DTO.dll
+C:\Users\sethm\OneDrive\Documents\Visual Studio 2017\Projects\PapaBobs\PapaBobs.DTO\obj\Debug\PapaBobs.DTO.pdb
+C:\Users\sethm\OneDrive\Documents\Visual Studio 2017\Projects\PapaBobs\PapaBobs.DTO\obj\Debug\PapaBobs.DTO.csprojResolveAssemblyReference.cache
